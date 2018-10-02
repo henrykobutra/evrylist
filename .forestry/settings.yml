@@ -1,0 +1,62 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: content/marketing-agency
+  label: Marketing agency
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ux-agency
+  label: Ux agency
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/js-library
+  label: Js library
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/internet-provider
+  label: Internet provider
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/cms
+  label: Cms
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/dev-agency
+  label: Dev agency
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/css-framework
+  label: Css framework
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/web-host
+  label: Web host
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/rov-hero
+  label: Rov hero
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+version: '0.49'
