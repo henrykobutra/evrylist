@@ -1,8 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://evrylist.io"
 languageCode = "en-us"
 title = "Evrylist.io"
 theme = "evrylook"
 
 [params]
     author = "Henry Kobutra"
-    description = "description of evrylook"
+    description = "Making the internet a better place, one list a time."
