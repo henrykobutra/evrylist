@@ -1,0 +1,26 @@
+---
+label: Marketing Agency
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Name
+  name: name
+  description: Name of the agency
+- type: number
+  label: Team size
+  name: team_size
+  description: Estimated team size
+  config:
+    min: '1'
+- type: select
+  name: pricing
+  config:
+    source:
+      type: simple
+    options:
+    - High
+    - Medium
+    - Low
+  label: Pricing
+  description: Estimated price range
