@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Evrylist.io"
+theme = "evrylook"
+
+[params]
+    author = "Henry Kobutra"
+    description = "description of evrylook"
