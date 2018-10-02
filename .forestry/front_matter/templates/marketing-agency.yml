@@ -24,3 +24,5 @@ fields:
     - Low
   label: Pricing
   description: Estimated price range
+pages:
+- content/marketing-agency/ipg-mediabrand.md
