@@ -1,6 +1,27 @@
 {{ define "main" }}
-<p>section</p>
-{{ range .Pages }}
-<p>{{.Title}}</p>
-{{end}}
+<div class="container">
+    <h1 class="title">{{ .Title}}</h1>
+    <table class="table is-striped is-hoverable">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Love</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .Pages }}
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">{{.Title}}</a>
+                </td>
+                <td>sit dolor doloribus facilis vitae blanditiis natus expedita sunt maxime quaerat maiores voluptatibus eius consectetur dolore debitis ut ut sint </td>
+                <td>GG</td>
+            </tr>
+            {{end}}
+        </tbody>
+    </table>
+</div>
 {{ end }}
