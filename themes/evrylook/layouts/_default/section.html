@@ -13,7 +13,7 @@
                 <th></th>
                 <th>Name</th>
                 <th>Tagline</th>
-                <th>Love</th>
+                <th>Tags</th>
             </tr>
         </thead>
         <tbody>
@@ -24,9 +24,7 @@
                     <a href="{{ .Params.Itemurl}}" target="_blank">{{.Title}}</a>
                 </td>
                 <td>{{ .Params.Tagline}} </td>
-                <td><span class="icon is-large">
-                    <i class="fas fa-heart"></i>
-                  </span></td>
+                <td><span class="tag is-info">Paid</span></td>
             </tr>
             {{end}}
         </tbody>
