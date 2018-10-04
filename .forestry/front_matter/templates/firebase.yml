@@ -29,4 +29,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/web-host/s3.md
 - content/web-host/netlify.md
