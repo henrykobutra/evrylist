@@ -1,4 +1,4 @@
-baseURL = "https://evrylist.io"
+baseURL = ""
 languageCode = "en-us"
 title = "Evrylist.io"
 theme = "evrylook"
