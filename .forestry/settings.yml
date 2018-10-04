@@ -5,13 +5,13 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: content/js-library
-  label: JS Libraries
+  path: content/internet-provider
+  label: Internet Providers
   create: all
   match: "**/*"
 - type: directory
-  path: content/internet-provider
-  label: Internet Providers
+  path: content/js-library
+  label: JS Libraries
   create: all
   match: "**/*"
 - type: directory
