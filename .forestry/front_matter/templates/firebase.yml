@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/css-framework/bootstrap.md
 - content/internet-provider/3bb.md
 - content/web-host/s3.md
 - content/web-host/netlify.md
