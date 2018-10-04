@@ -1,7 +1,6 @@
 ---
-title: "Web Hosts"
-date: 2018-10-03T10:56:54+07:00
-draft: false
-sectionimage: "https://placekitten.com/100/100"
----
+title: Web Hosts
+date: 2018-10-03 03:56:54 +0000
+sectionimage: http://www.newdesignfile.com/postpic/2013/05/web-hosting-icon_247381.png
 
+---
