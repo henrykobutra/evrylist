@@ -10,6 +10,12 @@ sections:
   create: all
   match: "*"
 - type: directory
+  path: cars
+  label: Cars
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
   path: content/internet-provider
   label: Internet Providers
   create: all
