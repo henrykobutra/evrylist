@@ -1,0 +1,30 @@
+---
+label: Firebase
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: tagline
+  label: Tagline
+  type: textarea
+  hidden: false
+  default: ''
+- name: itemurl
+  label: Itemurl
+  type: text
+  hidden: false
+  default: ''
+- name: rank
+  label: Rank
+  type: text
+  hidden: false
+  default: ''
