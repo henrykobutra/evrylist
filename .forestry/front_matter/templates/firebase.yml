@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- cars/test.md
 - content/digital-agency/oozou.md
 - content/css-framework/bulma.md
 - content/css-framework/bootstrap.md
