@@ -5,48 +5,33 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: content/marketing-agency
-  label: Marketing agency
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/ux-agency
-  label: Ux agency
-  create: all
-  match: "**/*"
-- type: directory
   path: content/js-library
-  label: Js library
+  label: JS Libraries
   create: all
   match: "**/*"
 - type: directory
   path: content/internet-provider
-  label: Internet provider
+  label: Internet Providers
   create: all
   match: "**/*"
 - type: directory
   path: content/cms
-  label: Cms
+  label: CMS
   create: all
   match: "**/*"
 - type: directory
-  path: content/dev-agency
-  label: Dev agency
+  path: content/digital-agency
+  label: Digital Agencies
   create: all
   match: "**/*"
 - type: directory
   path: content/css-framework
-  label: Css framework
+  label: CSS Frameworks
   create: all
   match: "**/*"
 - type: directory
   path: content/web-host
-  label: Web host
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/rov-hero
-  label: Rov hero
+  label: Web Hosts
   create: all
   match: "**/*"
 - type: directory
