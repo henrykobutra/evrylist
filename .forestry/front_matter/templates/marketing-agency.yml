@@ -24,5 +24,3 @@ fields:
     - Low
   label: Pricing
   description: Estimated price range
-pages:
-- content/web-host/netlify.md
