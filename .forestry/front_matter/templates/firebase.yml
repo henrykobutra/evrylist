@@ -29,5 +29,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/internet-provider/3bb.md
 - content/web-host/s3.md
 - content/web-host/netlify.md
